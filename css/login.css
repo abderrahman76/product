@@ -1,0 +1,55 @@
+     
+     body{
+        background-image: url(7.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+     }
+     form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      /* Style the headings */
+      h3 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        color: #333;
+      }
+      
+      /* Style the input fields */
+      input[type="text"],
+      input[type="password"] {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+      }
+      
+      /* Style the error message container */
+      div {
+        margin-top: 1rem;
+        color: rgb(105, 24, 2);
+      }
+      
+      /* Style the submit button */
+      input[type="submit"] {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+        color: #fff;
+        background-color: rgb(194, 51, 12);
+        cursor: pointer;
+      }
+      
+      /* Hover effect for the submit button */
+      input[type="submit"]:hover {
+        background-color: #0072ff;
+      }
+      
